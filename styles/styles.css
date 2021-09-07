@@ -205,3 +205,52 @@ main {
     color: var(--grey);
     background-color: var(--just-white);
 }
+
+.table__top-left {
+    border-radius: 15px 0 0 0;
+}
+
+.currendy-table--container .table__top-right {
+    border-radius: 0 15px 0 0;
+}
+
+.currendy-table--container .table__bottom-left {
+    border-radius: 0 0 0 15px;
+}
+
+.currendy-table--container .table__bottom-right {
+    border-radius:  0 0 15px 0;
+}
+
+.currendy-table--container .table__right {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #757575;
+}
+
+.currendy-table--container .down {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    margin-left: 10px;
+    background-image: url("../Assets/icons/trending-down.svg");
+}
+
+.currendy-table--container .up {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    margin-left: 10px;
+    background-image: url("../Assets/icons/trending-up.svg");
+}

@@ -414,9 +414,37 @@ main {
     line-height: 2.6rem;
     text-align: center;
     color: var(--just-white);
-    /*padding-top: 60px;
+}
+
+/****section-plans**********/
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    padding-bottom: 7rem;
+    background: #E5E5E5;;
+}
+.plans--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+.plans--title h2 {
+    padding-top: 5rem;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color: var(--just-white);*/
+    color: var(--black);
+}
+
+.plans--title p {
+    padding-top: 3rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #757575;
 }

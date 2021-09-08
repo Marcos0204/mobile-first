@@ -282,7 +282,7 @@ main {
     min-width: 320px;
     height: auto;
     padding: 2rem 1rem;
-    background: var(--warm-black);
+    background: var(--black);
 }
 
 .main-product-detail .product-detail--batata-logo {
@@ -320,4 +320,77 @@ main {
     font-size: 14px;
     line-height: 16px;
     color:#808080
-} 
+}
+
+.product-details--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 15px auto;
+    padding: 20px 17px;
+    background: var(--warm-black);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 4px 4px;
+}
+
+.product-details--card .clock {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    background-image: url("../Assets/icons/clock.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-details--card .eye {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    background-image: url("../Assets/icons/eye.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-details--card .dollar {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    background-image: url("../Assets/icons/dollar-sign.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-details--card .check {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    background-image: url("../Assets/icons/check-circle.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-details--card .product--card-title {
+    width: auto;
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product-details--card .product--card-body {
+    width: 100%;
+    height: auto;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #808080;
+    text-align:initial;
+}

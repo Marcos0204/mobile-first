@@ -254,3 +254,22 @@ main {
     margin-left: 10px;
     background-image: url("../Assets/icons/trending-up.svg");
 }
+
+.currency-table--date {
+    width: 18rem;
+    height: 3.1rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--soft-orange);
+    
+}
+
+.currency-table--date p {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 15px;
+    color: var(--warm-black);
+    font-weight: 300;
+}

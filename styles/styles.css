@@ -271,4 +271,5 @@ main {
     text-align: center;
     line-height: 15px;
     color: var(--warm-black);
+    font-weight: 300;
 }

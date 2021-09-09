@@ -449,6 +449,15 @@ main {
     color: #757575;
 }
 
+/*container cards***/
+
+.plans-container--slider {
+    display: flex;
+    overflow: scroll;
+}
+
+/***********/
+
 
 .plans-container--card {
     position: relative;
@@ -456,7 +465,7 @@ main {
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0px;
+    margin: 50px 5px 0px;
     padding: 0 1.5rem;
     background: var(--just-white);
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
@@ -527,9 +536,9 @@ main {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url("../Assets/icons/arrow-right111.svg");
+    background-image: url("../Assets/icons/orange-right-arrow.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-     vertical-align: middle;
+    vertical-align: middle;
 }

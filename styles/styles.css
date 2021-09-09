@@ -546,3 +546,37 @@ main {
     background-position: center;
     vertical-align: middle;
 }
+
+/*******footerr***************/
+
+footer{
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .left ul {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+    
+}
+
+footer .left ul li {
+    margin: 1rem 0px;
+}
+
+footer .left ul li a {
+    text-decoration: none;
+    color: var(--just-white);
+}

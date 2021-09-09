@@ -453,13 +453,17 @@ main {
 
 .plans-container--slider {
     display: flex;
-    overflow: scroll;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 
 /***********/
 
 
 .plans-container--card {
+    scroll-snap-align: center;
     position: relative;
     width: 70%;
     min-width: 230px;
